@@ -4,7 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ongoing...</title>
+  <link rel="stylesheet" href="styles/main.css" />
   <link rel="stylesheet" href="styles/sidebar.css" />
+  <link rel="stylesheet" href="styles/popup.css" />
 </head>
 <body>
   <div id="sidebar" class="sidebar hidden">
@@ -22,6 +24,15 @@
     <h1>Welcome</h1>
   </div>
 
+  <div id="custom-confirm" class="modal hidden">
+   <div class="modal-content">
+    <p>Do you really want to logout?</p>
+    <button id="confirm-yes">Yes</button>
+    <button id="confirm-no">No</button>
+  </div>
+  </div>
+
   <script src="scripts/sidebar.js"></script>
+  <script src="scripts/popup.js"></script>
 </body>
 </html>
